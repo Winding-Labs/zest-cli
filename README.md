@@ -23,4 +23,6 @@ Each plugin signs in once inside its tool; the installer prints the command. Onl
 
 `zest enable <tool> --replace-plugin` moves a tool from its plugin to the CLI's own collector. That is an invite-only test: without it the command switches nothing. Where it is on, the CLI also updates itself; set `ZEST_NO_AUTO_UPDATE=1` to turn that off.
 
+The installer sends two anonymous events to PostHog, when the install starts and when it ends: the CLI version, your OS and architecture, the tools it found and picked, and how each install went. They carry a random id kept in `~/.zest/collector`, never your account, paths or machine name; PostHog reads a rough location from the connection. Set `DO_NOT_TRACK=1` or `ZEST_TELEMETRY=0` to turn them off; nothing is sent when `CI=true`.
+
 Binaries for each release are attached to this repository's [releases](https://github.com/Winding-Labs/zest-cli/releases).
