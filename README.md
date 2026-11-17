@@ -13,10 +13,11 @@ In a terminal it runs as a short guided setup: pick your tools (the ones found o
 
 It works on macOS, Linux and Windows (x64) and needs Node.js 18 or newer for the installer only. The CLI itself is a standalone binary in `~/.zest/bin/zest` (`%USERPROFILE%\.zest\bin\zest.exe` on Windows, added to your user PATH — open a new terminal afterwards), verified against SHA256 checksums shipped in the npm package.
 
-Each plugin signs in once inside its tool; the installer prints the command. Only sessions started after setup are collected.
+Then it opens your browser with a sign-in code filled in: one Approve signs in every plugin it installed. Without a terminal it prints `zest login` instead, which does the same. Only sessions started after setup are collected.
 
 - `zest status` — your Zest plugins per tool: sign-in, sync, last sync and errors; `--watch` keeps it live, `--json` prints it as JSON
-- `zest update` — install the latest release
+- `zest login` — sign in once, for the CLI and every installed plugin that is not signed in yet
+- `zest update` — install the newest release
 - `zest pause` / `zest resume` — stop or restart uploads
 - `zest logout` — sign this device out, also on the Zest server; the web app, your plugins and other devices stay signed in
 - `npx @winding-labs/zest --uninstall` — stop collecting, remove the hooks, shims and the binary and sign out; the Zest plugins stay installed (it offers to turn back on any plugin the CLI replaced)
