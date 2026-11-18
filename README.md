@@ -1,6 +1,6 @@
 # Zest CLI
 
-Measure your AI coding sessions with [Zest](https://meetzest.com). One command installs the Zest plugin of each AI coding tool you pick (Claude Code, Codex, Grok Build, Hermes, opencode, Freebuff):
+Measure your AI coding sessions with [Zest](https://meetzest.com/?utm_source=npmjs.com&utm_medium=referral&utm_campaign=npm-readme), a usage tracker and dashboard for Claude Code, Codex and the other coding agents your team runs. One command installs the Zest plugin of each AI coding tool you pick (Claude Code, Codex, Grok Build, Hermes, opencode, Freebuff):
 
 ```sh
 npx @winding-labs/zest
