@@ -4,7 +4,7 @@ This file lists the open-source components included in this distribution,
 their licenses, and copyright notices. It is generated automatically from
 the project's production dependency tree.
 
-Generated: 2026-11-19
+Generated: 2026-11-20
 Packages: 4
 
 ---
@@ -38,7 +38,7 @@ SOFTWARE.
 
 ## npm Dependencies
 
-### @clack/prompts@1.8.1
+### @clack/prompts@1.9.0
 
 License: MIT
 Homepage: https://github.com/bombshell-dev/clack/tree/main/packages/prompts#readme
