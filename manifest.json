@@ -1,36 +1,36 @@
 {
-  "version": "2.2.0",
+  "version": "2.2.1",
   "repo": "Winding-Labs/zest-cli",
   "assets": {
     "darwin-arm64": {
-      "compressed_size": 25832963,
+      "compressed_size": 25833308,
       "file": "zest-darwin-arm64.gz",
-      "sha256": "1dc42973505840c4b39ad5e7eb316e6bdd58b13c147a5b7d9b4988ab53e2edc5",
+      "sha256": "ec9d47c55860fcb15162e7f05ceb8e8221c0fc1f854809ca5e3cdf3e4df93bcc",
       "size": 63465330
     },
     "darwin-x64": {
-      "compressed_size": 28524107,
+      "compressed_size": 28524338,
       "file": "zest-darwin-x64.gz",
-      "sha256": "eacb642c6cc1e478907916a5f9b01bc53e55873575d3dbd49ab8223e69ee3c00",
+      "sha256": "2b73d6d5b5d63fb2427c8c8c714dcfd9802ce45970e31bbf2ed09496dace0671",
       "size": 70562064
     },
     "linux-arm64": {
-      "compressed_size": 36619012,
+      "compressed_size": 36619332,
       "file": "zest-linux-arm64.gz",
-      "sha256": "84c10138a87ea053ac0975666e21019a8a2bb87150add53c9bdcad05a8ff01c4",
+      "sha256": "e9de80996c6babec031b2e5634c9bdae1eca7b9e8b8bda0f6dd02d9127a30473",
       "size": 82495784
     },
     "linux-x64": {
-      "compressed_size": 36708688,
+      "compressed_size": 36709017,
       "file": "zest-linux-x64.gz",
-      "sha256": "6af8df08d2479162331f69fec3e220a1c6bee456e2033302b9f5b414d2415a05",
+      "sha256": "bc6a0876880f54eb57cdb4d00329f097e65066a9297df50c135156450a4ad3d2",
       "size": 82552288
     },
     "win-x64": {
-      "compressed_size": 39957974,
+      "compressed_size": 39958307,
       "file": "zest-win-x64.exe.zip",
-      "sha256": "ef5b2dfc9b902af92cd07c27df297c7327773c6d6690510a38cf8e823cb066b4",
-      "size": 87325696
+      "sha256": "aac3168bacf1b291ab2186492375bf416ff840e90ffc68267c11bd1e1f2885e9",
+      "size": 87326720
     }
   }
 }
