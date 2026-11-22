@@ -20,7 +20,7 @@ Then it opens your browser with a sign-in code filled in: one Approve signs in e
 - `zest update` — install the newest release
 - `zest pause` / `zest resume` — stop or restart uploads
 - `zest logout` — sign this device out, also on the Zest server; the web app, your plugins and other devices stay signed in
-- `npx @winding-labs/zest --uninstall` — stop collecting, remove the hooks, shims and the binary and sign out; the Zest plugins stay installed (it offers to turn back on any plugin the CLI replaced)
+- `npx @winding-labs/zest --uninstall` — take the Zest plugin off every coding agent and sign them out, stop collecting, remove the hooks, shims and the binary; `--only=claude,grok` takes Zest off just those agents
 
 `zest enable <tool> --replace-plugin` moves a tool from its plugin to the CLI's own collector. That is an invite-only test: without it the command switches nothing. Where it is on, the CLI also updates itself; set `ZEST_NO_AUTO_UPDATE=1` to turn that off.
 
